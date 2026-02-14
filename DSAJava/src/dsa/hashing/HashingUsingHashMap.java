@@ -27,9 +27,9 @@ public class HashingUsingHashMap {
 		}
 
 		// Iterate over the map:
-//	   for (Map.Entry<Integer, Integer> it : mp.entrySet()) {
-//           System.out.println(it.getKey() + "->" + it.getValue());
-//       }
+	   for (Map.Entry<Integer, Integer> it : map.entrySet()) {
+           System.out.println(it.getKey() + "->" + it.getValue());
+       }
 
 		int q = 0;
 		q = sc.nextInt();
