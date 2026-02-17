@@ -8,7 +8,6 @@ public class MergeSorting {
 
 	public static void main(String[] args) {
 		int[] arr = { 5, 2, 8, 4, 1 };
-		MergeSorting sol = new MergeSorting();
 		mergeSort(arr, 0, arr.length - 1);
 		for (int num : arr)
 			System.out.print(num + " ");
